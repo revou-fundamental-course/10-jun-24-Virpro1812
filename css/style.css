@@ -1,0 +1,24 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  /* background-color: rgb(179, 179, 179); */
+}
+.S {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+textarea {
+  resize: none;
+  background-color: rgba(240, 222, 188, 0.301);
+}
