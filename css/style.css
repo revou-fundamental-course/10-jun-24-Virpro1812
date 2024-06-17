@@ -5,20 +5,54 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-header {
+.round {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(85deg, #21fc84 , #8a61fa 70%);
+  padding: 40px;
+  top: 30%;
+  right: 10%;
+  position: absolute;
+  z-index: -1;
+  border: none;
+}
+body {
+  background: linear-gradient(90deg, blue, #008cff 80%);
+  min-height: 100vh;
+}
+.web-header {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 60px;
-  /* background-color: rgb(179, 179, 179); */
+  background-color: #eeececbd;
+  padding: 10px 30px;
 }
-.S {
-  font-style: italic;
-  font-weight: 800;
-  font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
+
+main {
+  display: flex;
+  justify-content: center;
 }
-textarea {
+.temp-wrapper {
+  position: absolute;
+  top: 25%;
+  background-color: rgba(255, 235, 197, 0.384);
+  border-radius: 10px;
+  padding: 10px;
+}
+.temperature {
+  padding: 50px;
+}
+.temp {
+  background-color: rgba(85, 235, 255, 0.836);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.temperature-f {
+  display: flex;
+  flex-direction: column;
+}
+#celcius {
   resize: none;
-  background-color: rgba(240, 222, 188, 0.301);
 }

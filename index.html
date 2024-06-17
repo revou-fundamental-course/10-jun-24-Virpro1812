@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <div class="backgorund">
-    <div class=""></div>
+    <div class="round"></div>
     <div class=""></div>
     <div class=""></div>
     <div class=""></div>
@@ -16,19 +16,32 @@
 </div>
 
 <body>
-    <header>
-        <h1>website konversi suhu</h1>
+    <header class="web-header">
+        <img src="" alt="">
+        <span>
+            <h1>website konversi suhu</h1>
+            <p>By NaN</p>
+        </span>
     </header>
     <!-- main content -->
     <main>
-        <section>
-            <p>masukkan suhu derajat celcius (&deg;C)</p>
-        </section>
-        <section class="suhu">
-            <form class="celcius">
-                <input type="number" id="celcius" placeholder="masukkan suhu">
-                <button id="convert">konversi</button>
-            </form>
+        <section class="temp-wrapper">
+            <header class="temperature-head">
+                <h2>Konversi Suhu</h2>
+            </header>
+            <section class="temperature">
+                <section class="temp">
+                    <div>
+                        <button>Celcius</button>
+                        <button>Farenheit</button>
+                    </div>
+                    <form class="temperature-f">
+                        <label for="celcius">masukkan suhu derajat celcius (&deg;C)</label>
+                        <textarea name="" id="celcius" placeholder="fuck you"></textarea>
+                        <button id="convert">konversi</button>
+                    </form>
+                </section>
+            </section>
         </section>
     </main>
     <footer>
